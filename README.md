@@ -3,7 +3,12 @@
 start：開始計時
 
 pause：暫停計時
+
 resume：繼續計時
+
 reset：重置計時器
+
 display：顯示經過時間
+
 exit：退出程式
+
