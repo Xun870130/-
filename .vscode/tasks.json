@@ -11,12 +11,34 @@
                 "-o",
                 "${workspaceFolder}/main"
             ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Generated task by the extension"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++-11 建置使用中檔案",
+            "command": "/usr/bin/g++-11",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": ["$gcc"],
-            "detail": "Generated task by the extension"
+            "detail": "偵錯工具產生的工作。"
         }
     ]
 }
